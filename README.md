@@ -1,0 +1,1 @@
+# hyprland-script-setup
