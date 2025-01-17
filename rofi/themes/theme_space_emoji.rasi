@@ -1,0 +1,52 @@
+@import "./colors-rofi-dark.rasi"
+
+window {
+  transparency: "real";
+  location: center;
+  anchor: center;
+  fullscreen: false;
+  width: 32em;
+  x-offset: 0px;
+  y-offset: 0px;
+  enabled: true;
+  border: 2px solid;
+  border-color: @alternate-urgent-foreground;
+  border-radius: 4px;
+  background-color: @background;
+  cursor: "default";
+  }
+entry {
+  enabled: true;
+  cursor: text;
+  placeholder: "";
+  background-color: @background;
+  placeholder-color: @foreground;
+}
+listview {
+  enabled: true;
+  columns: 1;
+  lines: 20;
+  cycle: true;
+  dynamic: true;
+  scrollbar: true;
+  layout: vertical;
+  reverse: false;
+  fixed-height: true;
+  fixed-columns: true;
+  margin:  0.5em 0 0.75em;
+  cursor: "default";
+}
+element-icon {
+  size: 10px;
+}
+element-text {
+  highlight: bold;
+  cursor: inherit;
+  vertical-align: 0.5;
+  horizontal-align: 0.0;
+  font: "fira code 16px";
+}
+element selected.normal {
+  border: 2px solid;
+  border-radius: 8px;
+}
