@@ -1,3 +1,5 @@
+#!/bin/bash
+
 git clone https://github.com/Ske-Man1149/hyprland-script-setup.git
 cd hyprland-script-setup
 cp -r rofi/ ~/.config && cp -r scripts/ ~/.config/hypr
