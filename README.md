@@ -13,3 +13,4 @@ sh ./SETUP.sh
 - These scripts was used in another project ;3 . 
 ## Screenshots
 ![[1.png]]
+![alt text](https://github.com/Ske-Man1149/hyprland-script-setup/blob/4497de726e76b1e4c2b066908582155036c5a27f/2.png)
