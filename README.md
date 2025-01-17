@@ -12,4 +12,4 @@ sh ./SETUP.sh
   - Select your desired emoji 😎.
 - These scripts was used in another project ;3 . 
 ## Screenshots
-![1.png]
+![[1.png]]
