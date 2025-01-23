@@ -3,7 +3,7 @@
 ```sh
 git clone https://github.com/Ske-Man1149/hyprland-script-setup.git
 cd hyprland-script-setup
-sh ./SETUP.sh
+sh ./SETUP.sh # If you do not have your ROFI theme setting up
 ```
 > Also contain rofi theme BTW.
 - These scripts for beginners to :
