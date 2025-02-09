@@ -82,14 +82,3 @@ main() {
     fi
     # copy the wallpaper for wallpaper effects
 	cp -r "$wallpaper_path" "~/.config/hypr/current_wallpaper.jpg"
-
-
-# Execute the main function
-main
-pkill waybar
-waybar &
-wal -c
-wal -q -i ~/.config/hypr/current_wallpaper.jpg
-cp ~/.cache/wal/schemes/_home_spacexd__config_hypr_current_wallpaper_jpg_dark_None_None_1.1.0.json ~/.config/hypr
-~/.config/hypr/scripts/pywal-obsidian/pywal-obsidianmd.sh
-fi
