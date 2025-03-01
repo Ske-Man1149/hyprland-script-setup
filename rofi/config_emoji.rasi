@@ -18,4 +18,4 @@ configuration {
       sorting-method:    "name";
   }
 }
-@import "/home/spacexd/.config/rofi/themes/theme_space_emoji.rasi"
+@import "~/.config/rofi/themes/theme_space_emoji.rasi"
