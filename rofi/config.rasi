@@ -19,4 +19,4 @@ configuration {
       sorting-method:    "name";
   }
 }
-@import "/home/spacexd/.config/rofi/themes/theme_space.rasi"
+@import "~/.config/rofi/themes/theme_space.rasi"
