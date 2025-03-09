@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Path to your wallpaper directory
-WALLPAPER_DIR="$HOME/dotfily/.config/hypr/wallpaper/"
-CURRENT_WALLPAPER="$HOME/dotfily/.config/hypr/current_wallpaper.jpg"
+WALLPAPER_DIR="$HOME/.config/hypr/wallpaper/"
+CURRENT_WALLPAPER="$HOME/.config/hypr/current_wallpaper.jpg"
 
 # Check if Rofi is already running
 if pgrep -x "rofi" >/dev/null; then
@@ -36,7 +36,7 @@ else
     fi
 
     # Rofi command
-    rofi_command='rofi -config ~/dotfily/.config/rofi/config_wallpaper.rasi -dmenu -i -p 🖼️'
+    rofi_command='rofi -config ~/.config/rofi/config_wallpaper.rasi -dmenu -i -p 🖼️'
 
     # Function to display the menu with images as icons
     menu() {
@@ -78,7 +78,7 @@ else
     }
     # symlink the wallpaper to the location Rofi can access
     # copy the wallpaper for wallpaper effects
-    cp -r "$wallpaper_path" "~/dotfily/.config/hypr/current_wallpaper.jpg"
+    cp -r "$wallpaper_path" "~/.config/hypr/current_wallpaper.jpg"
     main
     hyprctl reload
 fi
